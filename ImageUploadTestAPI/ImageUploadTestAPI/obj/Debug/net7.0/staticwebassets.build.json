@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "fFD2/TqvmKKvP1BQO5Fe6IozjYzivEPkB06HMQd3724=",
+  "Source": "ImageUploadTestAPI",
+  "BasePath": "_content/ImageUploadTestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ImageUploadTestAPI\\wwwroot",
+      "Source": "ImageUploadTestAPI",
+      "ContentRoot": "D:\\Personal\\Projects\\ImageuploadTest\\ImageUploadTestAPI\\ImageUploadTestAPI\\wwwroot\\",
+      "BasePath": "_content/ImageUploadTestAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
