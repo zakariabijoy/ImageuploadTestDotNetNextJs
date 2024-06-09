@@ -1,29 +1,23 @@
-import fs from 'fs';
-import FormData from 'form-data';
-import path from 'path';
+import axios from 'axios';
 
 export async function uploadImage(file: File): Promise<string> {
-  const tempFilePath = path.join(process.cwd(), 'temp', file.name);
-  
-  // Save the file temporarily
-  fs.writeFileSync(tempFilePath, Buffer.from(await file.arrayBuffer()));
-
-
   const formData = new FormData();
-  formData.append('file', fs.createReadStream(tempFilePath));
+  formData.append('file', file);
+  formData.append('name', 'name');
+  formData.append('profession', 'SE');
 
-  const response = await fetch('https://localhost:7006/api/ImageUpload/upload', {
-    method: 'POST',
-    body: formData as unknown as BodyInit,
-  });
+    // const response = await axios.post('https://localhost:7006/api/ImageUpload/upload', formData, {
+    //   headers: {
+    //     'Content-Type': 'multipart/form-data',
+    //   },
+    // });
+    // return response.data;
 
-  // Remove the temporary file after uploading
-  fs.unlinkSync(tempFilePath);
+    const response = await fetch('https://localhost:7006/api/ImageUpload/upload', {
+  method: 'POST',
+  body: formData,
+});
 
-  if (!response.ok) {
-    throw new Error('Error uploading file to the server');
-  }
-
-  const data = await response.json();
-  return data.filePath;
+const data = await response.json();
+return data;
 }

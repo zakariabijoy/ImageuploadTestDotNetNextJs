@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fFD2/TqvmKKvP1BQO5Fe6IozjYzivEPkB06HMQd3724=",
+  "Hash": "dh5VkX3hMKApdWJ0Fh9WCZ4THTeFIJuqWHL4RO6Zr3E=",
   "Source": "ImageUploadTestAPI",
   "BasePath": "_content/ImageUploadTestAPI",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Personal\\Projects\\ImageuploadTest\\ImageUploadTestAPI\\ImageUploadTestAPI\\wwwroot\\images\\Picture1.png",
+      "SourceId": "ImageUploadTestAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\Projects\\ImageuploadTest\\ImageUploadTestAPI\\ImageUploadTestAPI\\wwwroot\\",
+      "BasePath": "_content/ImageUploadTestAPI",
+      "RelativePath": "images/Picture1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Picture1.png"
+    }
+  ]
 }

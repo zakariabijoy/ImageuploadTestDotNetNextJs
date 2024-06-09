@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ImageUploadTestAPI.model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ImageUploadTestAPI.Controllers
@@ -8,19 +9,19 @@ namespace ImageUploadTestAPI.Controllers
     public class ImageUploadController : ControllerBase
     {
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadImage(IFormFile file)
+        public async Task<IActionResult> UploadImage([FromForm]Person person)
         {
-            if (file == null || file.Length == 0)
+            if (person.File == null || person.File.Length == 0)
                 return BadRequest("No file uploaded.");
 
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", file.FileName);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", person.File.FileName);
 
             using (var stream = new FileStream(path, FileMode.Create))
             {
-                await file.CopyToAsync(stream);
+                await person.File.CopyToAsync(stream);
             }
 
-            return Ok(new { filePath = $"/images/{file.FileName}" });
+            return Ok(new { filePath = $"/images/{person.File.FileName}" });
         }
     }
 }

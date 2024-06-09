@@ -25,10 +25,11 @@ D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\D
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\staticwebassets.build.json
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\staticwebassets.development.json
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\scopedcss\bundle\ImageUploadTestAPI.styles.css
-D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUploadTestAPI.csproj.CopyComplete
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUploadTestAPI.dll
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\refint\ImageUploadTestAPI.dll
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUploadTestAPI.pdb
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUploadTestAPI.genruntimeconfig.cache
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ref\ImageUploadTestAPI.dll
 D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\bin\Debug\net7.0\ImageUploadTestAPI.staticwebassets.runtime.json
+D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUploadTestAPI.sourcelink.json
+D:\Personal\Projects\ImageuploadTest\ImageUploadTestAPI\ImageUploadTestAPI\obj\Debug\net7.0\ImageUpl.ADF615A4.Up2Date
